@@ -28,3 +28,17 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
  6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lab3\\public\\index.php')
+CRITICAL - 2023-09-28 12:54:21 --> Invalid file: "index/top.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index/top.php')
+ 2 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('index/top', null, true)
+ 3 APPPATH\Views\userinterface.php(3): CodeIgniter\View\View->include('index/top')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\lab3\\app\\Views\\userinterface.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('userinterface', [], true)
+ 7 APPPATH\Controllers\ProductController.php(16): view('userinterface')
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->userinterface()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lab3\\public\\index.php')
