@@ -10,11 +10,11 @@
                   <a href="">Contact</a>
                </div>
                <span class="toggle_icon" onclick="openNav()"><img src="images/toggle-icon.png"></span>
-               <a class="logo" href="index.html"><h1>eShop</h1></a></a>
+               <a class="logo" href=""><h1>eShop</h1></a></a>
                <form class="form-inline ">
                   <div class="login_text">
                      <ul>
-                        <li><a href="/login"><img src="images/user-icon.png"></a></li>
+                        <li><a href="#"><img src="images/user-icon.png"></a></li>
                         <li><a href="#"><img src="images/bag-icon.png"></a></li>
                         <li><a href="#"><img src="images/search-icon.png"></a></li>
                      </ul>
