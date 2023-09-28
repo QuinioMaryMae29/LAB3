@@ -7,3 +7,4 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('/index', 'ProductController::index');
+$routes->get('/userinterface', 'ProductController::userinterface');

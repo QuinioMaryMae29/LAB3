@@ -10,4 +10,9 @@ class ProductController extends BaseController
     {
         return view('index');
     }
+
+    public function userinterface()
+    {
+        return view('userinterface');
+    }
 }
