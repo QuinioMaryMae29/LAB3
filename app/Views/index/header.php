@@ -3,14 +3,14 @@
             <nav class="navbar navbar-light bg-light justify-content-between">
                <div id="mySidenav" class="sidenav">
                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                  <a href="/top">Home</a>
+                  <a href="">Home</a>
                   <a href="">Products</a>
                   <a href="">About</a>
                   <a href="">Client</a>
                   <a href="">Contact</a>
                </div>
                <span class="toggle_icon" onclick="openNav()"><img src="images/toggle-icon.png"></span>
-               <a class="logo" href=""><h1>eShop</h1></a></a>
+               <a class="logo" href=""><h1>E-SHOP</h1></a></a>
                <form class="form-inline ">
                   <div class="login_text">
                      <ul>

@@ -339,6 +339,7 @@ button {
     height: auto;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    box-shadow: 0px 0px 30px 1px #363636;
 }
 
 .banner_taital {
@@ -378,8 +379,8 @@ button {
 }
 
 .read_bt a:hover {
-    color: #ffffff;
-    background-color: #f5ddb6;
+    color: #152247;
+    background-color: #d7a24b;
 }
 
 
@@ -426,6 +427,7 @@ button {
     border: 1px solid #7d7d7c;
     padding: 20px 0px 0px 0px;
     margin-top: 30px;
+    box-shadow: 0px 0px 30px 1px #363636;
 }
 
 .bursh_text {
@@ -482,13 +484,13 @@ button {
 }
 
 .buy_bt li a:hover {
-    background-color: #f5ddb6;
-    color: #ffffff;
+    background-color: #b6f5b8;
+    color: #c02727;
 }
 
 .buy_bt li.active a {
-    background-color: #f5ddb6;
-    color: #fff;
+    background-color: #c9871d;
+    color: #131212;
 }
 
 .price_text {
@@ -519,8 +521,8 @@ button {
 }
 
 .seemore_bt a:hover {
-    color: #ffffff;
-    background-color: #f5ddb6;
+    color: #111111;
+    background-color: #b6f4f5;
 }
 
 
@@ -532,7 +534,7 @@ button {
 .about_section {
     width: 100%;
     float: left;
-    background-color: #fef4ec;
+    background-color: #f5ddb6;
     height: auto;
     padding-bottom: 90px;
 }
@@ -630,7 +632,7 @@ button {
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0px 0px 30px 1px #eeeeed;
+    box-shadow: 0px 0px 30px 1px #363636;
     margin-bottom: 50px;
 }
 
@@ -671,11 +673,13 @@ button {
 #main_slider a.carousel-control-prev {
     left: -60px;
     top: 360px;
+    box-shadow: 0px 0px 30px 1px #363636;
 }
 
 #main_slider a.carousel-control-next {
     right: -60px;
     top: 360px;
+    box-shadow: 0px 0px 30px 1px #363636;
 }
 
 #main_slider .carousel-control-next,
@@ -743,7 +747,7 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
+    color: #fc967e;
     padding: 10px 30px;
     background-color: #252525;
     text-transform: uppercase;
@@ -800,7 +804,7 @@ button {
 .footer_section {
     width: 100%;
     float: left;
-    background-color: #252525;
+    background-color: #767676;
     height: auto;
     background-size: 100%;
     padding-bottom: 30px;

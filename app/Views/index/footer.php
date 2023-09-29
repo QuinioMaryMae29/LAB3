@@ -26,7 +26,7 @@
                      </div>
                   </div>
                   <div class="col-sm-4">
-                     <div class="footer_logo_1"><a href="index.html"><img src="images/footer-logo.png"></a></div>
+                     <div class="footer_logo_1"><a href="index.html"><img src="images/e-shop.png"></a></div>
                      <p class="dummy_text">commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p>
                   </div>
                   <div class="col-sm-4">
