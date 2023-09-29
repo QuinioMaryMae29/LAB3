@@ -8,6 +8,7 @@
                   <a href="">About</a>
                   <a href="">Client</a>
                   <a href="">Contact</a>
+                  <a href="/products/create">Create New Product</a>
                </div>
                <span class="toggle_icon" onclick="openNav()"><img src="images/toggle-icon.png"></span>
                <a class="logo" href=""><h1>E-SHOP</h1></a></a>
