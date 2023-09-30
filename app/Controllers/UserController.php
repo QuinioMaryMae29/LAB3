@@ -11,4 +11,14 @@ class UserController extends BaseController
     {
         //
     }
+
+    public function admin()
+    {
+        return view('admin');
+    }
+
+    public function register()
+    {
+        
+    }
 }
