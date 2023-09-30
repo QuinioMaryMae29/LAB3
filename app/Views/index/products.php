@@ -20,7 +20,7 @@
                         <h4 class="bursh_text">Tshirt</h4>
                         <center><h6 class="text">(Clothing)</h6></center>
                         <p class="lorem_text">style of fabric shirt and a v-neck shape </p>
-                        <img src="" class="image_1">
+                        <img src="images/tshirt.jpg" class="image_1">
                         <div class="btn_main">
                            <div class="buy_bt">
                               <ul>
@@ -37,7 +37,7 @@
                         <h4 class="bursh_text">Rejuvenating Toner</h4>
                         <center><h6 class="text">(Beauty Products)</h6></center>
                         <p class="lorem_text">used for face only </p>
-                        <img src="" class="image_1">
+                        <img src="images/rejuv-toner.png" class="image_1">
                         <div class="btn_main">
                            <div class="buy_bt">
                               <ul>
@@ -54,7 +54,7 @@
                         <h4 class="bursh_text">Dress</h4>
                         <center><h6 class="text">(Clothing)</h6></center>
                         <p class="lorem_text">Fits up to XL </p>
-                        <img src="" class="image_1">
+                        <img src="images/dress.png" class="image_1">
                         <div class="btn_main">
                            <div class="buy_bt">
                               <ul>
@@ -71,7 +71,7 @@
                         <h4 class="bursh_text">Sanicare wipes</h4>
                         <center><h6 class="text">(Personal Care/Hygiene)</h6></center>
                         <p class="lorem_text">scent: aloe vera ; for face only </p>
-                        <img src="" class="image_1">
+                        <img src="images/sanicare-wipes.png" class="image_1">
                         <div class="btn_main">
                            <div class="buy_bt">
                               <ul>
