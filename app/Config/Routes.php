@@ -14,5 +14,4 @@ $routes->post('/products/save', 'ProductController::save');
 $routes->get('/products/edit/(:any)', 'ProductController::edit/$1');
 $routes->get('/products/update/(:any)', 'ProductController::update/$1');
 $routes->get('/products/delete/(:any)', 'ProductController::delete/$1');
-$routes->get('/admin', 'ProductController::admin');
-$routes->get('/admin/register', 'UserController::register');
+$routes->post('/admin', 'UserController::admin');

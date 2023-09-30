@@ -25,11 +25,6 @@ class ProductController extends BaseController
         return view('userinterface');
     }
 
-    public function admin()
-    {
-        return view('admin');
-    }
-
     public function create()
     {
         return view('products/create');
