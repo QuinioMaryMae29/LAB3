@@ -4,8 +4,7 @@
                <div id="mySidenav" class="sidenav">
                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                   <a href="">Home</a>
-                  <a href="">Products</a>
-                  <a href="/products/create">Create New Product</a>
+                  <a href="/products">Products</a>
                   <a href="">About</a>
                   <a href="">Client</a>
                   <a href="">Contact</a>
@@ -15,7 +14,7 @@
                <form class="form-inline ">
                   <div class="login_text">
                      <ul>
-                        <li><a href="#"><img src="images/user-icon.png"></a></li>
+                        <li><a href="/admin"><img src="images/user-icon.png"></a></li>
                         <li><a href="#"><img src="images/bag-icon.png"></a></li>
                         <li><a href="#"><img src="images/search-icon.png"></a></li>
                      </ul>

@@ -25,6 +25,7 @@
                 <option value="Jeans">Jeans</option>
                 <option value="Underwear">Underwear</option>
                 <option value="BeautyProducts">Beauty Products</option>
+                <option value="PersonalCare/Hygiene">Personal Care/Hygiene</option>
             </select>
             <br>
             <label for="quantity">Quantity</label>
