@@ -14,7 +14,7 @@
                <form class="form-inline ">
                   <div class="login_text">
                      <ul>
-                        <li><a href="/admin"><img src="images/user-icon.png"></a></li>
+                        <li><a href="#"><img src="images/user-icon.png"></a></li>
                         <li><a href="#"><img src="images/bag-icon.png"></a></li>
                         <li><a href="#"><img src="images/search-icon.png"></a></li>
                      </ul>
