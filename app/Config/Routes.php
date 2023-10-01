@@ -16,3 +16,4 @@ $routes->get('/products/update/(:any)', 'ProductController::update/$1');
 $routes->get('/products/delete/(:any)', 'ProductController::delete/$1');
 $routes->get('/admin', 'UserController::admin');
 $routes->get('/admin/signin', 'UserController::admin');
+$routes->get('/admin/register', 'UserController::register');
