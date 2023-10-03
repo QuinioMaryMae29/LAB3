@@ -18,6 +18,7 @@
                     <tr>
                         <th>Name</th>
                         <th>Description</th>
+                        <th>Image</th>
                         <th>Price</th>
                         <th>Category</th>
                         <th>Quantity</th>
@@ -29,6 +30,7 @@
                         <tr>
                             <td><?= $product['name'] ?></td>
                             <td><?= $product['description'] ?></td>
+                            <td><?= $product['image'] ?></td>
                             <td><?= $product['price'] ?></td>
                             <td><?= $product['category'] ?></td>
                             <td><?= $product['quantity'] ?></td>

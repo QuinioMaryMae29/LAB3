@@ -10,4 +10,17 @@ class AuthController extends BaseController
     {
         return view('user/login');
     }
+
+    public function register()
+    {
+        return view('user/register');
+    }
+
+    public function save()
+    {
+        $validation = $this->validate([
+            'username' => 'required',
+            
+        ]);
+    }
 }

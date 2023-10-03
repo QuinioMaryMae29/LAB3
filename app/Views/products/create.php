@@ -34,7 +34,6 @@
                                 <option value="Food/Drinks">Food/Drinks</option>
                                 <option value="Grocery">Grocery</option>
                             </select>
-                            <label for="image">Choose an image: </label>
                             <br><br>
                             <label for="quantity">Quantity</label>
                             <input type="number" name="quantity" id="quantity" class="form-control">
