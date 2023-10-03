@@ -2,13 +2,6 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h4><a href="/products/create">Add New Product</a></h4>
-               </div>
-            </div>
-         </div>
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12">
                   <h1 class="product_taital">Shop Products</h1>
                   <p class="product_text">"clothing , beauty products , underwear ,  and etc."</p>
                </div>
