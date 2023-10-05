@@ -131,3 +131,54 @@ in APPPATH\Views\user\register.php on line 18.
  7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lab3\\public\\index.php')
+CRITICAL - 2023-10-05 06:17:38 --> syntax error, unexpected token ";"
+in APPPATH\Views\user\register.php on line 17.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/register', [], true)
+ 3 APPPATH\Controllers\AuthController.php(20): view('user/register')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuthController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lab3\\public\\index.php')
+CRITICAL - 2023-10-05 07:45:01 --> Undefined constant "App\Controllers\Hash"
+in APPPATH\Controllers\AuthController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuthController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lab3\\public\\index.php')
+CRITICAL - 2023-10-05 07:45:52 --> Undefined variable $Hash
+in APPPATH\Controllers\AuthController.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Hash', 'C:\\laragon\\www\\lab3\\app\\Controllers\\AuthController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuthController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lab3\\public\\index.php')
+CRITICAL - 2023-10-05 07:46:42 --> hash() expects at least 2 arguments, 0 given
+in APPPATH\Controllers\AuthController.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(43): hash()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuthController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lab3\\public\\index.php')
+CRITICAL - 2023-10-05 08:34:32 --> Invalid file: "user.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user', [], true)
+ 3 APPPATH\Controllers\AuthController.php(63): view('user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuthController->check()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lab3\\public\\index.php')
+CRITICAL - 2023-10-05 09:00:04 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\AuthController.php on line 69.
+ 1 APPPATH\Controllers\AuthController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\lab3\\app\\Controllers\\AuthController.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuthController->check()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lab3\\public\\index.php')

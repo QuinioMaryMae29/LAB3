@@ -13,28 +13,36 @@
             <div class="col-md-4 col-md-offset-4">
                 <h4>Register</h4><br>
                 <form action="/save" method="post">
+                    <?php if(!empty(session()->getFlashdata('Fail'))) : ?>
+                        <alert class="alert-danger"><?= session()->getFlashdata('Fail'); ?></alert>
+                    <?php endif ?>
+
+                    <?php if(!empty(session()->getFlashdata('Success'))) : ?>
+                        <alert class="alert-success"><?= session()->getFlashdata('Success'); ?></alert>
+                    <?php endif ?>
+
                     <div class="form-group">
-                        <label for="">Username</label>
+                        <label for="">Username </label>
                         <input type="text" class="form-control" name="username" placeholder="Username" value="<?= set_value('username'); ?>">
                         <span class="text-danger"><?= isset($validation) ? display_error($validation, 'username') : '' ?></span>
                     </div><br>
                     <div class="form-group">
-                        <label for="">Email</label>
+                        <label for="">Email </label>
                         <input type="text" class="form-control" name="email" placeholder="Email" value="<?= set_value('email'); ?>">
                         <span class="text-danger"><?= isset($validation) ? display_error($validation, 'email') : '' ?></span>
                     </div><br>
                     <div class="form-group">
-                        <label for="">Password</label>
+                        <label for="">Password </label>
                         <input type="text" class="form-control" name="password" placeholder="Password" value="<?= set_value('password'); ?>">
                         <span class="text-danger"><?= isset($validation) ? display_error($validation, 'password') : '' ?></span>
                     </div><br>
                     <div class="form-group">
-                        <label for="">Confirm Password</label>
+                        <label for="">Confirm Password </label>
                         <input type="text" class="form-control" name="confirmpassword" placeholder="Confirm Password" value="<?= set_value('confirmpassword'); ?>"> 
                         <span class="text-danger"><?= isset($validation) ? display_error($validation, 'confirmpassword') : '' ?></span>
                     </div><br>
                     <div class="form-group">
-                        <button class="btn btn-primary btn-block" type="submit">Sign Up</button> || <a href="/admin">I already have an account, login now</a>
+                        <button class="btn btn-primary btn-block" type="submit">Sign Up</button> || <a href="/admin">I already have an account, Login Now!</a>
                     </div>
                 </form>
             </div>

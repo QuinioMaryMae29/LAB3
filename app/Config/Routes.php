@@ -17,3 +17,4 @@ $routes->get('/products/delete/(:any)', 'ProductController::delete/$1');
 $routes->get('/admin', 'AuthController::admin');
 $routes->get('/register', 'AuthController::register');
 $routes->post('/save', 'AuthController::save');
+$routes->post('/check', 'AuthController::check');

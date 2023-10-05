@@ -16,13 +16,13 @@
                         <div class="form-group">
                             <label for="name">Name: </label>
                             <input type="text" name="name" id="name" class="form-control">
-                            <br><br>
+                            <br>
                             <label for="description">Description: </label>
                             <input name="description" id="description" class="form-control"></input>
-                            <br><br>
+                            <br>
                             <label for="price">Price:</label>
                             <input type="number" name="price" id="price" class="form-control">
-                            <br><br>
+                            <br>
                             <label for="category">Choose a category: </label>
                             <select name="category" id="category">
                                 <option value=""></option>
@@ -37,7 +37,7 @@
                             <br><br>
                             <label for="quantity">Quantity</label>
                             <input type="number" name="quantity" id="quantity" class="form-control">
-                            <br><br>
+                            <br>
                             <button type="submit" class="btn btn-primary">Save</button>
                         </div>
                     </form>
